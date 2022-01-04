@@ -1,15 +1,32 @@
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 body {
-  background-color: #262626;
-}
+  background-color: #262626; }
 
 .header {
-  width: 100%;
+  width: 90%;
   height: 100vh;
-  background: linear-gradient(rgba) url(../images/bg.jpg) center no-repeat;
-  background-size: cover;
-}/*# sourceMappingURL=main.css.map */
+  position: relative;
+  background: url(../images/bg.jpg) center no-repeat;
+  background-size: cover; }
+
+.brand {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; }
+
+.logo {
+  font-size: 70px;
+  color: #d3ab55;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  width: 110px;
+  height: 110px;
+  border: 3px solid #d3ab55;
+  border-radius: 50%; }
