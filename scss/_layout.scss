@@ -147,7 +147,7 @@
     @include centering(15%);
 
     @media(max-width: 500px) {
-       @in
+       @include centering(50%)
      }
    }
 
